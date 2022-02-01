@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Emulators",
+      "type": "shell",
+      "command": "firebase",
+      "args": [
+        "emulators:start",
+        "--import",
+        "emulator-data",
+        "--export-on-exit"
+      ],
+      "options": {
+        "statusbar": {
+          "label": "$(gear) emulators:start"
+        }
+      }
+    }
+  ]
+}

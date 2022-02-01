@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(runner LANGUAGES CXX)
 
 set(BINARY_NAME "spendi")
-set(APPLICATION_ID "com.example.spendi")
+set(APPLICATION_ID "com.natashadraper.spendi")
 
 cmake_policy(SET CMP0063 NEW)
 
